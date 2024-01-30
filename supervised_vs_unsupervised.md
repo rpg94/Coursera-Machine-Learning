@@ -48,5 +48,33 @@ Practical advice for applying learning algorithms
     - Age and tumor size
     - decide how to fit a boundary line to this data
 
+### Unsupervised Learning 
+
+--- 
+
+- Given data that isn't associated with any output labels y
+- given age and tumor size but not whether the tumor is benign or malignant
+- Job is to find some structure or something interesting in unlabeled data
+- might decide that the data belongs into two different clusters
+    - **clustering algorithm**
+    - used in Google news
+        - groups related news together
+    
+- Clustering: DNA microarray
+    - measure how much certain genes are expressed in individuals
+    - clustering algorithms to group individuals
+
+- Clustering: Grouping Customers
+    - Different market segments
+
+**Unsupervised Learning**: 
+- Data only comes with inputs x, but not output labels y
+- Algorithm has to find *structure* in the data
+- **Clustering**
+    - group similar data points together
+- **Anomaly Detection**
+    - Find unusual data points
+- **Dimensionality reduction**
+    - compress data using fewer numbers
 
 
