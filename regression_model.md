@@ -44,4 +44,42 @@ How to represent f?
 
 ---
 
+The cost function will tell us how well our model is doing so we can get it to do better.
 
+Training Set
+Input features (x)   and    output targets (y)
+f~w,b~= wx + b
+
+w,b: parameters
+
+parameters of the model are the variables you can adjust during training in order to improve the model.
+
+w and b are sometimes referred to as coefficients or weights
+
+What do w,b do?
+
+y-hat^i^ = f~w,b~(x^i^)
+f~w,b~(x^(i)^) = wx^(i)^ + b
+
+How do you find w,b:
+- so that y-hat^(i)^ is close to y^(i)^ for all (x^(i)^, y^(i)^)
+
+**Cost Function**
+
+Squared error cost function = J(w,b) = sum of i=1 to i=m(y_hat^(i)^ - y^(i)^)^2^/2m
+m = number of training examples
+most commonly used cost function for most regression models
+
+want to find values of w,b that makes the cost function small
+
+
+simplified
+fw(x) = wx (setting parameter b to 0)
+parameter = w
+cost funtion = J(w) = sum i = 1 ... m (fw(x^(i)^) - y^(i)^)^2^
+
+find value of w that minimizes J(w)
+
+| f~w~(x) | J(w) |
+| --- | --- |
+| (for fixed w, funtion of x) | (function of w) |
