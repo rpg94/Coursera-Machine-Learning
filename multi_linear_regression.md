@@ -45,4 +45,19 @@ $f_{\overrightarrow{w,b}}(\overrightarrow{x}) = \overrightarrow w \cdot \overrig
 - runs much faster then without vectorization 
 - numpy dot function uses parallel processing
 
+### Gradient Descent for Multiple Linear Regression
+
+
+##### An alternative to gradient descent
+
+- Normal Eqaution
+    - only for linear regression
+    - solve for w, b without iterations
+
+- Disadvantages
+    - Doesn't generalize to other learning algorithms
+    - Slow when number of features is large
+
+- Normal equation method may be used in machine learning libraries that implement linear regression
+- gradient descent is the recommended method for finding parameter w,b
 
