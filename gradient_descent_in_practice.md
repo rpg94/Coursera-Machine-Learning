@@ -75,7 +75,35 @@
         - If J(w,b) decreases by $\leq \epsilon$ in one iteration declare convergence
         - (found parameters w,b to get close to global min)
 
-    
-Choosing the learning rate
+
+## Feature
+
+x1 = width of the lot size (frontage)
+x2 = depth of the lot size (depth)
+
+f(x) = w1x1 + w2x2 + b
+
+area = frontage * depth
+
+area may be more predictive of price than frontage and depth as independent features
+
+x2 - x1x2
+
+f(x) = w1x1 + w2x2 + w3x3 + b
+
+creating a new feature is an example of feature engineering, using knowledge and intiuition to design new features, by transforming or combining original features
+
+## Polynomial Regression
+
+fit curves to your data
+
+f(x) = w1x + w2x**2 + b
+- quadratic doesn't make sense because it will come back down
+
+$f(x) = w_1x + w_2x^2 + w_3x^3 + b$
+
+feature scaling becomes increasingly important in these cases
+
+$f(x) = w_1x + w_2\sqrt{x} + b$
 
 
